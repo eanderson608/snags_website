@@ -1,0 +1,17 @@
+#events-upcoming div {
+	background-color: lightgrey;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+#events-upcoming div .date{
+	color: red;
+	font-size: 12px;
+}
+
+#events-upcoming div .description{
+	font-size: 16px;
+}
+

@@ -6,56 +6,13 @@
 		<meta charset="utf-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   		<script src="FormatGoogleCalendar/format-google-calendar.js"></script>
+  		<script src="script.js"></script>
 
-  		<script>
-
-  			$(document).ready(function(){
-    			$("#includedFooter").load("footer.html");
-			});
-
-  			formatGoogleCalendar.init({
-	        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/iuu19aualns1ff3n1lr4j1116c@group.calendar.google.com/events?key=AIzaSyABRqI7pe2mP66gwsmdDwVVQi_a0EC5Zuw',
-	        past: false,
-	        upcoming: true,
-	        sameDayTimes: true,
-	        dayNames: true,
-	        pastTopN: 0,
-	        upcomingTopN: 3,
-	        itemsTagName: 'div',
-	        upcomingSelector: '#events-upcoming',
-	        pastSelector: '#events-past',
-	        upcomingHeading: '<h2>Upcoming events</h2>',
-	        pastHeading: '<h2>Past events</h2>',
-	        format: ['*summary*', '*date*', '<br>', '*description*']
-			});
-  		</script>
-
-  		<style>
-  			#events-upcoming div {
-  				background-color: lightgrey;
-  				border: 2px solid black;
-  				border-radius: 5px;
-  				margin: 10px;
-  				padding-bottom: 20px;
-  			}
-
-  			#events-upcoming div .date{
-  				color: red;
-  				font-size: 12px;
-  			}
-
-  			#events-upcoming div .description{
-  				font-size: 16px;
-  			}
-
-
-
-
-  		</style>
 	</head>
 
 	<body>
@@ -65,6 +22,7 @@
 	<!-- Header -->
 
 			<div class="row header">
+
 				<div class="col-sm-4">
 					<img src="snags_logo.png" width="300">
 				</div>
@@ -78,6 +36,7 @@
 					OPEN DAILY AT NOON<br>
 					HAPPY HOUR WEEKDAYS 12 - 6</p>
 				</div>
+
 			</div>
 
 		<!-- Nav Bar -->
