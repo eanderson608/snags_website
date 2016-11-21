@@ -12,6 +12,11 @@
   		<script src="FormatGoogleCalendar/format-google-calendar.js"></script>
 
   		<script>
+
+  			$(document).ready(function(){
+    			$("#includedFooter").load("footer.html");
+			});
+
   			formatGoogleCalendar.init({
 	        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/iuu19aualns1ff3n1lr4j1116c@group.calendar.google.com/events?key=AIzaSyABRqI7pe2mP66gwsmdDwVVQi_a0EC5Zuw',
 	        past: false,
@@ -20,14 +25,37 @@
 	        dayNames: true,
 	        pastTopN: 0,
 	        upcomingTopN: 3,
-	        itemsTagName: 'li',
+	        itemsTagName: 'div',
 	        upcomingSelector: '#events-upcoming',
 	        pastSelector: '#events-past',
 	        upcomingHeading: '<h2>Upcoming events</h2>',
 	        pastHeading: '<h2>Past events</h2>',
-	        format: ['*date*', '*summary*', '*description*', '*location*']
+	        format: ['*summary*', '*date*', '<br>', '*description*']
 			});
   		</script>
+
+  		<style>
+  			#events-upcoming div {
+  				background-color: lightgrey;
+  				border: 2px solid black;
+  				border-radius: 5px;
+  				margin: 10px;
+  				padding-bottom: 20px;
+  			}
+
+  			#events-upcoming div .date{
+  				color: red;
+  				font-size: 12px;
+  			}
+
+  			#events-upcoming div .description{
+  				font-size: 16px;
+  			}
+
+
+
+
+  		</style>
 	</head>
 
 	<body>
