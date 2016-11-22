@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 formatGoogleCalendar.init({
-	calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/iuu19aualns1ff3n1lr4j1116c@group.calendar.google.com/events?key=AIzaSyABRqI7pe2mP66gwsmdDwVVQi_a0EC5Zuw',
+	calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/iuu19aualns1ff3n1lr4j1116c@group.calendar.google.com/events?key=AIzaSyAq5NdUw04tb1D6Z0yie32s1Hu8c2s_-2Y',
 	past: false,
 	upcoming: true,
 	sameDayTimes: true,
