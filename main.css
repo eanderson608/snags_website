@@ -2,29 +2,33 @@
 	background-color: lightgrey;
 	border: 2px solid black;
 	border-radius: 5px;
-	margin: 10px;
+	margin-bottom: 10px;
 	padding-bottom: 20px;
 }
 
 #events-upcoming div .date{
 	color: red;
-	font-size: 12px;
+	font-size: 10pt;
 }
 
 #events-upcoming div .description{
-	font-size: 16px;
+	font-size: 12pt;
 }
 
-.map{
+.google-embed{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:80%;
     position:relative;
     height:0;
 }
-.map iframe{
+.google-embed iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+}
+
+#fb-like {
+  color: blue;
 }

@@ -10,7 +10,7 @@ formatGoogleCalendar.init({
 	sameDayTimes: true,
 	dayNames: true,
 	pastTopN: 0,
-	upcomingTopN: 3,
+	upcomingTopN: 10,
 	itemsTagName: 'div',
 	upcomingSelector: '#events-upcoming',
 	pastSelector: '#events-past',
