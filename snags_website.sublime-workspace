@@ -351,7 +351,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1953,
+				"buffer_size": 1990,
 				"line_ending": "Unix"
 			}
 		},
@@ -364,10 +364,26 @@
 			}
 		},
 		{
+			"file": "/home/eanderson/Desktop/fonts101.txt",
+			"settings":
+			{
+				"buffer_size": 230,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "calendar.html",
 			"settings":
 			{
 				"buffer_size": 1941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 149,
 				"line_ending": "Unix"
 			}
 		},
@@ -380,10 +396,10 @@
 			}
 		},
 		{
-			"file": "script.js",
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 658,
+				"buffer_size": 537,
 				"line_ending": "Unix"
 			}
 		},
@@ -457,14 +473,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/eanderson/Desktop/snags_website"
-	],
 	"file_history":
 	[
-		"/home/eanderson/Desktop/snags_website/snags_website.sublime-project",
 		"/home/eanderson/Desktop/snags_website/contact.js",
+		"/home/eanderson/Desktop/snags_website/snags_website.sublime-project",
 		"/home/eanderson/Desktop/snags_website/script.js",
 		"/home/eanderson/Desktop/Model Railroad Dreams - Iowa Model Railroad Design, Construction, Installation & Restoration.html",
 		"/home/eanderson/Desktop/snags_website/index.html",
@@ -617,7 +629,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -626,15 +638,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1953,
+						"buffer_size": 1990,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								892,
-								892
+								711,
+								711
 							]
 						],
 						"settings":
@@ -650,7 +662,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -679,14 +691,43 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "/home/eanderson/Desktop/fonts101.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "calendar.html",
 					"semi_transient": false,
 					"settings":
@@ -711,14 +752,46 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 170.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "header.html",
 					"semi_transient": false,
 					"settings":
@@ -744,31 +817,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "script.js",
+					"buffer": 6,
+					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 658,
+						"buffer_size": 537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								658,
-								658
+								537,
+								537
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -776,11 +848,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "main.css",
 					"semi_transient": false,
 					"settings":
@@ -792,8 +864,8 @@
 						"selection":
 						[
 							[
-								409,
-								409
+								0,
+								0
 							]
 						],
 						"settings":
@@ -807,11 +879,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "footer.html",
 					"semi_transient": false,
 					"settings":
@@ -836,11 +908,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "FormatGoogleCalendar/format-google-calendar.js",
 					"semi_transient": false,
 					"settings":
@@ -869,7 +941,7 @@
 						"translation.y": 2193.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
