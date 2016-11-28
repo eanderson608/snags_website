@@ -9,17 +9,34 @@
 }
 
 .header-text {
+  margin-top: 10px;
   background-color: white;
   padding-bottom: 10px;
   border: 2px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #888888;
 }
+
+.events {
+  color: white;
+  background-color: #c40403;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+#events-upcoming {
+  padding-left: 15px;
+  padding-right: 8px;
+}
+
 #events-upcoming div {
-	background-color: lightgrey;
+  color: black;
+	background-color: white;
 	border: 2px solid black;
 	border-radius: 5px;
-	margin-bottom: 10px;
+	margin-right: 10px;
 	padding-bottom: 20px;
 }
 
@@ -50,7 +67,8 @@
   color: blue;
 }
 
-.navbar {
+.navbar-default {
   margin: 15px;
   text-align: center;
+  background-color: white;
 }
