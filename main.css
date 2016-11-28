@@ -1,3 +1,20 @@
+.container {
+  background-color: #f2f2f2;
+  width: 800px;
+  font-family: "Verdana";
+}
+
+.header {
+  padding: 15px;
+}
+
+.header-text {
+  background-color: white;
+  padding-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+}
 #events-upcoming div {
 	background-color: lightgrey;
 	border: 2px solid black;
@@ -31,4 +48,9 @@
 
 #fb-like {
   color: blue;
+}
+
+.navbar {
+  margin: 15px;
+  text-align: center;
 }
