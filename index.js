@@ -1,5 +1,5 @@
 formatGoogleCalendar.init({
-	calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/iuu19aualns1ff3n1lr4j1116c@group.calendar.google.com/events?key=AIzaSyAq5NdUw04tb1D6Z0yie32s1Hu8c2s_-2Y',
+	calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/b53etc90j5h9ic1si0e556oark@group.calendar.google.com/events?key=AIzaSyAq5NdUw04tb1D6Z0yie32s1Hu8c2s_-2Y',
 	past: false,
 	upcoming: true,
 	sameDayTimes: true,

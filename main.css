@@ -8,6 +8,10 @@
   padding: 15px;
 }
 
+footer {
+  margin: 20px;
+}
+
 .header-text {
   margin-top: 10px;
   background-color: white;
@@ -36,26 +40,30 @@
 	background-color: white;
 	border: 2px solid black;
 	border-radius: 5px;
-	margin-right: 10px;
-	padding-bottom: 20px;
+	margin: 20px 10px;
+  padding: 15px;
 }
 
 #events-upcoming div .date{
 	color: red;
 	font-size: 10pt;
+  margin: 15px 10px;
+  padding-bottom: 15px;
 }
 
 #events-upcoming div .description{
 	font-size: 12pt;
+  padding: 5px;
+  padding-top: 10px;
 }
 
-.google-embed{
+.google-embed { 
     overflow:hidden;
     padding-bottom:80%;
     position:relative;
     height:0;
 }
-.google-embed iframe{
+.google-embed iframe {
     left:0;
     top:0;
     height:100%;
@@ -71,4 +79,9 @@
   margin: 15px;
   text-align: center;
   background-color: white;
+}
+
+.contact-info {
+  margin: 10px;
+  text-align: left;
 }
