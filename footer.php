@@ -2,8 +2,10 @@
 
 	<div class="row footer-main">
 
-		<div class="col-sm-4 footer-links">
-			
+		<div class="col-sm-4">
+			<a href="index.html">Home</a><br>
+			<a href="calendar.html">Calendar</a><br>
+			<a href="contact.html">Contact & Directions</a>
 		</div>
 
 		<div class="col-sm-4">
@@ -21,6 +23,8 @@
 	</div>
 
 	<div class="row footer-copy">
-	<small>Copyright &copy;	2016, www.snagssportsbar.com</small>
+	<small>Copyright &copy;
+	<?php echo date("Y") ?> 
+	, www.snagssportsbar.com</small>
 	</div>
 </footer>

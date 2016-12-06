@@ -9,7 +9,12 @@
 }
 
 footer {
+  padding: 20px;
+  border-top: 1px solid #ccc;
   margin: 20px;
+  margin-top: 30px;
+  font-size: 10pt;
+  color: grey;
 }
 
 .header-text {
