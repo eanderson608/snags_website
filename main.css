@@ -35,6 +35,21 @@ footer {
   box-shadow: 2px 2px 5px #888888;
 }
 
+.description {
+  padding: 15px;
+  padding-left: 20px;
+}
+
+.description p {
+  text-align: left;
+  text-indent: 2em;
+  margin-top: 20px;
+}
+
+.description h2 {
+  color: #c40403;
+}
+
 #events-upcoming {
   padding-left: 15px;
   padding-right: 8px;
@@ -87,7 +102,12 @@ footer {
   background-color: white;
 }
 
-.contact-info {
-  margin: 10px;
+.contact {
+  margin: 15px;
+}
+
+.contact-description {
+  margin-top: 25px;
   text-align: left;
+  text-indent: 2em;
 }
