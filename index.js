@@ -11,5 +11,5 @@ formatGoogleCalendar.init({
 	pastSelector: '#events-past',
 	upcomingHeading: '<h2>Upcoming events</h2>',
 	pastHeading: '<h2>Past events</h2>',
-	format: ['*summary*', '*date*', '<br>', '*description*']
+	format: ['*summary*', '*date*', '<br><br>', '*description*']
 });
