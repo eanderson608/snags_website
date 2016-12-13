@@ -35,18 +35,18 @@ footer {
   box-shadow: 2px 2px 5px #888888;
 }
 
-.description {
+.main-description {
   padding: 15px;
   padding-left: 20px;
 }
 
-.description p {
+.main-description p {
   text-align: left;
   text-indent: 2em;
   margin-top: 20px;
 }
 
-.description h2 {
+.main-description h2 {
   color: #c40403;
 }
 
