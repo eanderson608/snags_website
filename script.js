@@ -4,5 +4,4 @@ $(document).ready(function(){
 	$("#includedFooter").load("footer.html");
 	$("#includedHeader").load("header.html");
 
-	document.getElementById("currentYear").innerHTML="newtext";
 });
